@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="c85dcca5-a9d2-43fd-b650-efc8914635e1" ItemType="ActUIElement" CreatedBy="elena.caprioara" Created="202109290707" GingerVersion="3.9.0.0" Version="2" LastUpdateBy="elena.caprioara" LastUpdate="202109290708" />
+<ActUIElement Active="True" Description="Click Enter" Guid="c85dcca5-a9d2-43fd-b650-efc8914635e1" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="514d590e-1a40-4ca1-b72a-2a097eb8c3c3" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Click" />
+<ActInputValue Guid="ccd37d11-3b30-4492-8b95-2f4f710f83d7" Param="ElementLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="ByRelXPath" />
+<ActInputValue Guid="44d187e9-1b5e-4dbb-a02a-8c9eb65382ee" Param="ElementLocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" Value="/html[1]/body[1]/div[1]/div[1]/div[3]/div[2]/div[2]/div[1]/form[1]/div[1]/div[8]/button[1]" />
+<ActInputValue Guid="5324989c-af49-41f8-a67e-8c7d8053dfa2" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Button" />
+<ActInputValue Guid="ce4fa968-97cf-4ff4-9f22-5266626175da" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="7478529f-a15a-45bd-a2f2-e2af81b805b2" Param="ValueToSelect" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="3962aadb-b767-415c-a525-9feeb64db669" Param="TargetLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
+<ActInputValue Guid="8afc48bb-7c25-4369-b3c6-bf54398f9085" Param="TargetElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="8a1ee2ce-0de6-44bc-ad54-2835d7ae42f4" Param="HandleElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="38bddfc5-f132-4b95-ba6d-dc1f8ff2c64a" Param="HandleActionType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+</InputValues>
+</ActUIElement></GingerRepositoryItem>

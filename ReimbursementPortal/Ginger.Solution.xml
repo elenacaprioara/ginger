@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="0246963a-3db4-49e6-9bac-b384e0731451" ItemType="Solution" CreatedBy="elena.caprioara" Created="202109290620" GingerVersion="3.9.0.0" Version="2" LastUpdateBy="elena.caprioara" LastUpdate="202109290620" />
+<Solution EncryptedValidationString="69XLR5W+7FjW4H+NJXOcmg==" Guid="0246963a-3db4-49e6-9bac-b384e0731451" Name="ReimbursementPortal" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ApplicationPlatforms>
+<ApplicationPlatform AppName="Reimbursement" Guid="7121d8fb-1fa1-4894-8840-27dd9d13d7cd" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" />
+</ApplicationPlatforms>
+
+<ExecutionLoggerConfigurationSetList>
+<ExecutionLoggerConfiguration DataPublishingPhase="PostExecution" DeleteLocalDataOnPublish="No" ExecutionLoggerConfigurationExecResultsFolder="~\ExecutionResults" ExecutionLoggerConfigurationIsEnabled="True" ExecutionLoggerConfigurationMaximalFolderSize="250" Guid="f3a3b8e3-708a-40b8-94c0-73460fad1d42" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" PublishLogToCentralDB="No" SelectedDataRepositoryMethod="LiteDB" Seq="0" />
+</ExecutionLoggerConfigurationSetList>
+
+<HTMLReportsConfigurationSetList>
+<HTMLReportsConfiguration Guid="640c6f4b-13fc-4216-8e98-b314386540af" HTMLReportConfigurationMaximalFolderSize="0" HTMLReportsFolder="~\HTMLReports" HTMLReportTemplatesSeq="1" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" Seq="0" />
+</HTMLReportsConfigurationSetList>
+</Solution></GingerRepositoryItem>

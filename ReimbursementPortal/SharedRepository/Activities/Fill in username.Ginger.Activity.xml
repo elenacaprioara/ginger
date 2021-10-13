@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="a895988c-a2bb-4f7b-adae-7f083cf50e37" ItemType="Activity" CreatedBy="elena.caprioara" Created="202110080919" GingerVersion="3.9.0.0" Version="1" LastUpdateBy="elena.caprioara" LastUpdate="202110080919" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Fill in username" AutomationStatus="Automated" ErrorHandlerMappingType="AllAvailableHandlers" Guid="a895988c-a2bb-4f7b-adae-7f083cf50e37" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100,00 %%" TargetApplication="Reimbursement">
+<Acts>
+<ActUIElement Active="True" Description="Set username" Guid="02b33981-5580-4807-afa1-1ef98ccd2901" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="a2afeb24-4421-43e4-b10c-84e62c843c06" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="SetText" />
+<ActInputValue Guid="432e3a6c-2a27-40ab-8020-0514c89d711c" Param="ElementLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="ByName" />
+<ActInputValue Guid="652d374a-5c7a-4b20-8d2d-7a0e0f4c8a9c" Param="ElementLocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" Value="username" />
+<ActInputValue Guid="df62a93a-9d76-4e29-9d0b-66c385085c44" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="TextBox" />
+<ActInputValue Guid="986b03c6-7b61-446d-85b3-370849b18fa5" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="fleet-direct-1@reimbursement-qa.trafineo.com" />
+<ActInputValue Guid="167297b9-f112-4478-a543-3e0a87c0343f" Param="TargetLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
+<ActInputValue Guid="a3695cfc-cc66-419b-b05b-9394dc00a2dc" Param="TargetElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="62e58d62-217d-4080-bf6a-045f95343224" Param="HandleElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="9779f88a-4257-4538-8ac8-3bd06a28eadd" Param="HandleActionType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+</InputValues>
+</ActUIElement>
+</Acts>
+</Activity></GingerRepositoryItem>

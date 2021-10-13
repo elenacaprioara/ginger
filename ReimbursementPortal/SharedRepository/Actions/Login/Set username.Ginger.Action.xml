@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="f480ff6f-abc7-4bff-ab6e-2e90b26a0119" ItemType="ActUIElement" CreatedBy="elena.caprioara" Created="202109290707" GingerVersion="3.9.0.0" Version="2" LastUpdateBy="elena.caprioara" LastUpdate="202109290719" />
+<ActUIElement Active="True" Description="Set username" Guid="f480ff6f-abc7-4bff-ab6e-2e90b26a0119" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="f9be0ece-063c-4d2c-9b3f-f9d6306c0f86" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="SetText" />
+<ActInputValue Guid="fc6f4997-b65a-40c1-8c15-974de8515222" Param="ElementLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="ByName" />
+<ActInputValue Guid="77aa6363-bff3-46c3-9771-98f0c93e239a" Param="ElementLocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" Value="username" />
+<ActInputValue Guid="22a146a0-f10a-44c5-92ad-e78757ab3fef" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="TextBox" />
+<ActInputValue Guid="dd823812-0da1-492d-a865-d6e15c8482e8" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="fleet-direct-1@reimbursement-qa.trafineo.com" />
+<ActInputValue Guid="93386b31-ad56-4189-9da1-4a60d30e0cb0" Param="TargetLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
+<ActInputValue Guid="5666a27d-36bb-4e6f-8664-72f2e0275d9c" Param="TargetElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="a45f8e39-fbb8-436d-97d1-247a3a7fc73c" Param="HandleElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="e0135539-fdd4-4f39-8f7e-c803e2366571" Param="HandleActionType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+</InputValues>
+</ActUIElement></GingerRepositoryItem>

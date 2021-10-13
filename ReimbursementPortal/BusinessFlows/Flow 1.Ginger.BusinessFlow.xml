@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="8d6c478c-40df-41e5-98cc-6a735396debd" ItemType="BusinessFlow" CreatedBy="elena.caprioara" Created="202109291425" GingerVersion="3.9.0.0" Version="5" LastUpdateBy="elena.caprioara" LastUpdate="202110080827" />
+<BusinessFlow Elapsed="12688" Guid="8d6c478c-40df-41e5-98cc-6a735396debd" Name="Login flow" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Login operation" ActivityName="Open URL" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="6c048816-3eba-40ab-a681-e337cc817fb3" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100,00 %%" TargetApplication="Reimbursement">
+<Acts>
+<ActBrowserElement Active="True" Description="Go to Url - Aral Home Charging Reimbursement Service Registration Portal" Guid="37042c16-9577-4667-897b-f58dba707540" ImplicitWait="60" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="ebfa52bc-2e3d-44df-bf74-0aeffdaf3134" Param="ControlAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="GotoURL" />
+<ActInputValue Guid="bb45760d-c0a4-4dc7-9359-c0a0d757e9e7" Param="LocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
+<ActInputValue Guid="104a5991-a15e-49cf-8852-4e519ce884db" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="https://aral-reimbursement-qa.trafineo.com/login" />
+<ActInputValue Guid="4b4fcd8b-502d-4985-98ef-32c3f7962dee" Param="LocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="7fa3ae1b-da2b-437f-b831-e90f629a6b90" Param="PomGUID" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="99c141cf-15e7-4fd3-ad62-d8bd8963cb33" Param="GotoURLType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Current" />
+<ActInputValue Guid="6c62462d-c7b8-40e8-a09e-826d7fbf3562" Param="URLSrc" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Static" />
+</InputValues>
+</ActBrowserElement>
+</Acts>
+</Activity>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Login operation" ActivityName="Fill in username" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="a895988c-a2bb-4f7b-adae-7f083cf50e37" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100,00 %%" TargetApplication="Reimbursement">
+<Acts>
+<ActUIElement Active="True" Description="Set username" Guid="02b33981-5580-4807-afa1-1ef98ccd2901" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="a2afeb24-4421-43e4-b10c-84e62c843c06" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="SetText" />
+<ActInputValue Guid="432e3a6c-2a27-40ab-8020-0514c89d711c" Param="ElementLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="ByName" />
+<ActInputValue Guid="652d374a-5c7a-4b20-8d2d-7a0e0f4c8a9c" Param="ElementLocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" Value="username" />
+<ActInputValue Guid="df62a93a-9d76-4e29-9d0b-66c385085c44" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="TextBox" />
+<ActInputValue Guid="986b03c6-7b61-446d-85b3-370849b18fa5" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="fleet-direct-1@reimbursement-qa.trafineo.com" />
+<ActInputValue Guid="167297b9-f112-4478-a543-3e0a87c0343f" Param="TargetLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
+<ActInputValue Guid="a3695cfc-cc66-419b-b05b-9394dc00a2dc" Param="TargetElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="62e58d62-217d-4080-bf6a-045f95343224" Param="HandleElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="9779f88a-4257-4538-8ac8-3bd06a28eadd" Param="HandleActionType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+</InputValues>
+</ActUIElement>
+</Acts>
+</Activity>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Login operation" ActivityName="Fill in password" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="d755c6cd-2bfe-4b7d-83db-740853431a77" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100,00 %%" TargetApplication="Reimbursement">
+<Acts>
+<ActUIElement Active="True" Description="Set password" Guid="d4cb5385-6ddf-4a6a-8075-cb791c156e6f" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="9d12ab77-b765-4482-91c0-b744691a3cf6" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="SetText" />
+<ActInputValue Guid="c1846d2f-047f-49b0-95f8-9cdad88b3fe0" Param="ElementLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="ByName" />
+<ActInputValue Guid="ab52deaa-7fc9-40c6-a470-c4776cd543a8" Param="ElementLocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" Value="password" />
+<ActInputValue Guid="bd39e297-4d82-43c8-86f5-82a768f7afc3" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="TextBox" />
+<ActInputValue Guid="131c7733-7c42-4409-96a2-780a5df97ce8" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Tosca1234!" />
+<ActInputValue Guid="473b8f06-6dcc-49f2-af6a-21a5bba9ad81" Param="TargetLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
+<ActInputValue Guid="785e8296-18cc-403c-b966-10294f496753" Param="TargetElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="c23501b3-7c4f-47eb-b96f-58997b68c88a" Param="HandleElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="024b3fca-8271-411a-8682-650216c74f03" Param="HandleActionType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+</InputValues>
+</ActUIElement>
+<ActUIElement Active="True" Description="Click Enter" Guid="23878c93-6d4b-4efa-896f-a3e107ca508a" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="f03d52ba-3104-44cd-933e-8340944b4dd8" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Click" />
+<ActInputValue Guid="dbe5b6cf-c685-4e3a-add6-f1d0dd8976ff" Param="ElementLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="ByRelXPath" />
+<ActInputValue Guid="aefc10e3-e77d-4ecc-8967-ade10f6125bf" Param="ElementLocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" Value="/html[1]/body[1]/div[1]/div[1]/div[3]/div[2]/div[2]/div[1]/form[1]/div[1]/div[8]/button[1]" />
+<ActInputValue Guid="af59b39b-7049-4749-9418-3a3fdaeefc80" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Button" />
+<ActInputValue Guid="61183064-8c8d-4cb9-8632-996242dad2fe" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="aa6e8a85-c980-4e76-8234-e0dff0dbdd8c" Param="ValueToSelect" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="b1d17481-4365-400d-a4ca-8b5d9f01f29a" Param="TargetLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
+<ActInputValue Guid="35f73f47-3e01-4bf2-beed-41caefb7b613" Param="TargetElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="b1e3338d-f796-47a2-9f60-a3595c0d4f69" Param="HandleElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="dc2da9ae-7014-45cc-b4c6-cfc440c8ffb7" Param="HandleActionType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+</InputValues>
+</ActUIElement>
+</Acts>
+</Activity>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Login operation" ActivityName="Verify Logout" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="aa0dcfba-dfb3-4924-b8b5-95ea914aaeca" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100,00 %%" TargetApplication="Reimbursement">
+<Acts>
+<ActUIElement Active="True" Description="Verify Logout" Guid="a8cee394-fdd2-4272-97d3-a744d1e798dd" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="c0bd92f3-3a2a-4216-a457-1bde4ee06900" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="IsVisible" />
+<ActInputValue Guid="f7f0fb90-4268-4d9a-bdb8-6fd5646cb775" Param="ElementLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="ByRelXPath" />
+<ActInputValue Guid="87e8d92c-a095-40d0-b2bd-393e05f81090" Param="ElementLocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" Value="/html[1]/body[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/button[2]" />
+<ActInputValue Guid="4cfb8f39-1fdb-42de-8ebc-02acc4ca2be8" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Button" />
+<ActInputValue Guid="94c06ea2-996a-4447-86e6-4707004a1cd0" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="df3a68ff-002a-4385-8523-5e052620bdbd" Param="ValueToSelect" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="a80d51a1-f75f-4a49-8dae-26a8e15ad3ab" Param="XCoordinate" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="afa0b4fd-29c1-44bd-ab85-c6df4ca780db" Param="YCoordinate" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="54d580c8-605b-42eb-8fdf-2b9e31f566ff" Param="ControlAction" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="61c245f2-b607-4e84-b7e6-eb3808612d89" Param="TargetLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
+<ActInputValue Guid="a1d5deff-e8d7-45ed-ba86-7a00929f5018" Param="TargetElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="956ebf9c-074d-4594-bd32-ff15aa35fc16" Param="HandleElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="0c5c9a4e-ecf2-4c7a-a538-d892ed21ef5b" Param="HandleActionType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+</ActUIElement>
+</Acts>
+</Activity>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Login operation" ActivityName="Click Logout" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="5762cea5-eb07-405b-9254-0c2fe006e9e7" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="50,00 %%" TargetApplication="Reimbursement">
+<Acts>
+<ActUIElement Active="True" Description="Click Logout" Guid="37592cf9-36a1-4c6e-997f-f35f463dc5ed" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="62051fbd-045b-4b8c-87aa-64a8b4c0ebb1" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Click" />
+<ActInputValue Guid="5e638aee-6bb5-49db-817a-251fd43e6d3d" Param="ElementLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="ByRelXPath" />
+<ActInputValue Guid="975002f1-539d-40b7-8fcb-a324962e427e" Param="ElementLocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" Value="/html[1]/body[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/button[2]" />
+<ActInputValue Guid="3a592078-e43c-40f5-82ce-db737440bbd0" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Button" />
+<ActInputValue Guid="2810d66f-88ec-4f86-a0b3-06d0b6328ce1" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="a6c27031-fa7e-4a69-8bb3-babbe0006973" Param="ValueToSelect" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="474b6156-11a2-4d55-8687-ae75f77eae76" Param="XCoordinate" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="ac33b7b3-378b-46a7-ac74-45aae0985034" Param="YCoordinate" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="8e9c9be1-45e8-40f7-a2a9-098cb6c3b3a1" Param="ControlAction" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="7a42ffc9-624a-4bcf-9dff-588d7b4f6830" Param="TargetLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
+<ActInputValue Guid="0d0cfbc7-b20c-4450-861a-2afd5255d03e" Param="TargetElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="f984d193-e42d-4c1c-8349-4084d6e73859" Param="HandleElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="3d0cbbcd-488c-42ab-a05c-fc1408f164cf" Param="HandleActionType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+</InputValues>
+</ActUIElement>
+<ActUIElement Description="Click : Button - Button" Guid="159153a7-858f-4b7a-b76e-68bf955f09ac" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="501b5c54-b7c6-448a-aa61-2b8f58cf0249" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Click" />
+<ActInputValue Guid="8fad3844-c801-44db-ac57-7a6d0574ef6a" Param="ElementLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="ByRelXPath" />
+<ActInputValue Guid="25513720-0ae2-436d-883f-2145f0c4376e" Param="ElementLocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" Value="/html[1]/body[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/button[2]" />
+<ActInputValue Guid="a148f50e-f041-410a-8ae6-7eb81e0cc360" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Button" />
+<ActInputValue Guid="02279956-e2f4-41fa-80fe-61f147b6fb68" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="e3b87705-146f-4e59-8efc-84f0d77b8fb7" Param="ValueToSelect" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="159ed5d2-50e7-4999-9e1f-b548bcaebb32" Param="TargetLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
+<ActInputValue Guid="402886b5-e110-4044-acb8-a0e4c23fe33b" Param="TargetElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="3a3cec9f-a629-4ec3-a020-d123c6b895bf" Param="HandleElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="fca23f07-f907-409d-8029-3a7c48951e16" Param="HandleActionType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+</InputValues>
+</ActUIElement>
+</Acts>
+</Activity>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Test case" ActivityName="New Step" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="6742cc76-fc05-4125-ae0c-616741c5e05b" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100,00 %%" TargetApplication="Reimbursement">
+<Acts>
+<ActBrowserElement Active="True" Description="Go to Url - Aral Home Charging Reimbursement Service Registration Portal" Guid="96717d21-cd1b-4808-b193-374d4e52db09" ImplicitWait="60" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="12b41d01-68f2-48ef-a72a-e142426a6a49" Param="ControlAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="GotoURL" />
+<ActInputValue Guid="1d1e06b2-1a5d-4c96-a740-421c379df5e1" Param="LocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
+<ActInputValue Guid="ec471938-fef5-4fbd-b0e5-f7106f6d6ed1" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="https://aral-reimbursement-qa.trafineo.com/login" />
+<ActInputValue Guid="6602dbcb-8d08-4241-8b9a-cfd8470b53f0" Param="LocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="e74c7125-3391-4516-9c00-07c40c3332d4" Param="PomGUID" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActBrowserElement>
+</Acts>
+</Activity>
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="6a95721b-ffe2-42e4-8985-e3c6a67e5a05" Name="Login operation" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="6c048816-3eba-40ab-a681-e337cc817fb3" ActivityName="Open URL" Guid="0f01aa3b-3ce0-4f7e-bc06-ebeaadf90599" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="a895988c-a2bb-4f7b-adae-7f083cf50e37" ActivityName="Fill in username" Guid="030f28e7-af41-4cb0-a6f4-adbcd1f6cb00" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="d755c6cd-2bfe-4b7d-83db-740853431a77" ActivityName="Fill in password" Guid="ced5d438-900f-41fe-b392-0a5b0bb688a7" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="aa0dcfba-dfb3-4924-b8b5-95ea914aaeca" ActivityName="Verify Logout" Guid="18d9f2fa-d89c-46ef-9d3d-b90e696eef7e" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="5762cea5-eb07-405b-9254-0c2fe006e9e7" ActivityName="Click Logout" Guid="0468dee5-28ae-4d4f-9add-8d6c9f833ed5" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+<ActivitiesGroup Guid="150563a4-a1cd-481e-963f-e2e994304017" Name="Test case" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="6742cc76-fc05-4125-ae0c-616741c5e05b" ActivityName="New Step" Guid="ce06a1ba-0c83-4a89-a56b-9bd232806d8a" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="Reimbursement" Guid="07c9a67f-a5c8-4327-b944-297cdbb3b45a" LastExecutingAgentName="Reimbursement - Agent 1" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</TargetApplications>
+</BusinessFlow></GingerRepositoryItem>
