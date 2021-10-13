@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="8c57f668-73db-4eed-8392-757cae15df30" ItemType="ProjEnvironment" CreatedBy="elena.caprioara" Created="202109290620" GingerVersion="3.9.0.0" Version="1" LastUpdateBy="elena.caprioara" LastUpdate="202109290620" />
+<ProjEnvironment Guid="8c57f668-73db-4eed-8392-757cae15df30" Name="Default" ParentGuid="00000000-0000-0000-0000-000000000000">
+<Applications>
+<EnvApplication Active="True" Guid="1ca9b771-9a4f-4ce5-81b8-d925d2bef829" Name="Reimbursement" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</Applications>
+</ProjEnvironment></GingerRepositoryItem>

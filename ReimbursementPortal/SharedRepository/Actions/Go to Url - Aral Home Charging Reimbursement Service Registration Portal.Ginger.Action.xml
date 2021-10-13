@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="37042c16-9577-4667-897b-f58dba707540" ItemType="ActBrowserElement" CreatedBy="elena.caprioara" Created="202109290707" GingerVersion="3.9.0.0" Version="1" LastUpdateBy="elena.caprioara" LastUpdate="202109290707" />
+<ActBrowserElement Active="True" Description="Go to Url - Aral Home Charging Reimbursement Service Registration Portal" Guid="37042c16-9577-4667-897b-f58dba707540" ImplicitWait="60" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="ebfa52bc-2e3d-44df-bf74-0aeffdaf3134" Param="ControlAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="GotoURL" />
+<ActInputValue Guid="bb45760d-c0a4-4dc7-9359-c0a0d757e9e7" Param="LocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
+<ActInputValue Guid="104a5991-a15e-49cf-8852-4e519ce884db" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="https://aral-reimbursement-qa.trafineo.com/login" />
+<ActInputValue Guid="4b4fcd8b-502d-4985-98ef-32c3f7962dee" Param="LocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="7fa3ae1b-da2b-437f-b831-e90f629a6b90" Param="PomGUID" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActBrowserElement></GingerRepositoryItem>
